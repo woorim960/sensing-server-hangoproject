@@ -7,7 +7,7 @@ const express = require('express'); // 웹 프레임워크
 const app = express(); // express를 사용하기 위한 인스턴스 생성
 
 // 포트 설정
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 80;
 
 // 기본 앱 세팅
 app.set('view engine', 'ejs'); // HTML 뷰 엔진은 ejs 사용
